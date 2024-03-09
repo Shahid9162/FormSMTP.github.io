@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="sample.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <h2>Registration</h2>
+        <div class="input-box">
+          <div class="input-field">
+            <input
+              type="text"
+              id="firstName"
+              placeholder="First Name"
+              required
+            />
+            <i class="bx bxs-user"></i>
+          </div>
+
+          <div class="input-field">
+            <input type="text" id="lastName" placeholder="Last Name" required />
+            <i class="bx bxs-user"></i>
+          </div>
+        </div>
+
+        <div class="input-box">
+          <div class="input-field">
+            <input type="email" id="userEmail" placeholder="Email" required />
+            <i class="bx bx-envelope"></i>
+          </div>
+
+          <div class="input-field">
+            <input type="tel" id="userNumber" placeholder="Number" />
+            <i class="bx bxs-phone"></i>
+          </div>
+        </div>
+
+        <div class="input-box">
+          <div class="input-field">
+            <input
+              type="password"
+              id="userPassword"
+              placeholder="Password"
+              required
+            />
+            <i class="bx bxs-lock-alt"></i>
+          </div>
+
+          <div class="input-field">
+            <input
+              type="password"
+              id="confirmPassword"
+              placeholder="Re-enter Password"
+              required
+            />
+            <i class="bx bxs-lock-alt"></i>
+          </div>
+        </div>
+
+        <input type="button" value="Register" class="btn" />
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
